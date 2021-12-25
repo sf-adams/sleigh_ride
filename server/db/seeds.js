@@ -10,7 +10,7 @@ db.countries.insertMany([
         greeting: "'Joyeux Noël' (French)",
         celebrated: "24th December",
         meal: "Roast turkey with chestnuts or roast goose, oysters, foie gras, lobster, venison and cheeses. Followed by a chocolate cake log called a bûche de Noël",
-        decorations: "Christmas trees, lights, and advent wreaths (called ‘Couronnes de l'Avent’)",
+        decorations: "Christmas trees, lights, and advent wreaths (called 'Couronnes de l'Avent')",
         didyouknow: "In some parts of France, they celebrate by eating 13 different desserts!... all made from different types of fruits, nuts and pastries."
     },
     {
@@ -29,7 +29,7 @@ db.countries.insertMany([
         song: "TBD",
         greeting: "'Heri ya Krismasi' (Swahili)",
         celebrated: "25th December (although many people celebrate all through the night on Christmas Eve!)",
-        meal: "One of the most popular Christmas foods in Kenya is the ‘nyama choma’, which is similar to a BBQ",
+        meal: "One of the most popular Christmas foods in Kenya is the 'nyama choma', which is similar to a BBQ",
         decorations: "Colourful ribbons, flowers and balloons… and a beautifully decorate Cypress tree",
         didyouknow: "There are at least 68 languages spoken in Kenya. Wow."
     },
@@ -51,7 +51,7 @@ db.countries.insertMany([
         celebrated: "25th December",
         meal: "BBQ, cold meats, and Christmas pudding",
         decorations: "Christmas Trees and Christmas lights. Neighbors sometimes have little competitions for the best light display.",
-        didyouknow: "It’s summer in Australia at Christmas, so many Australians spend Christmas on the beach!"
+        didyouknow: "It's summer in Australia at Christmas, so many Australians spend Christmas on the beach!"
     },
     {
         name: "Nicaragua",
@@ -175,7 +175,7 @@ db.jokes.insertMany([
 
 db.quiz.insertMany([
     {
-        question: "How do you say ‘Happy Christmas’ in French?",
+        question: "How do you say 'Happy Christmas' in French?",
         correct: "Joyeux Noël",
         options: ["Feliz navidad", "Salut", "Joyeux Noël"]
     },
@@ -193,23 +193,22 @@ db.quiz.insertMany([
         question: "What do people eat for Christmas in Argentina?",
         correct: "Roast pig, mince pie and veal in mayonaise",
         options: ["Turkey and mashed potatoes", "Roast pig, mince pie and veal in mayonaise", "Lots of meat… and Malva Pudding"]
-
     },
     {
         question: "How do you say merry Christmas in Spanish?",
         correct: "Feliz navidad",
-        options: [" Joyeux Noel", "Feliz navidad", "Heri ya Krismasi"]
+        options: ["Joyeux Noel", "Feliz navidad", "Heri ya Krismasi"]
 
     },
     {
-        question: "Which of these songs was written by an Australian",
+        question: "Which of these songs was written by an Australian?",
         correct: "Aussie Jingle Bells",
         options: ["All I want for Christmas is You","Jingle Bell Rock", "Aussie Jingle Bells"]
     },
     {
         question: "What do people eat for Christmas in Japan?",
         correct: "Kentucky Fried Chicken",
-        options: ["Kentucky Fried Chicken","Turkey and mashed potatoes","stuffed chicken,  something called nacatamal, rice, and freshly baked bread"]
+        options: ["Kentucky Fried Chicken","Turkey and mashed potatoes","Stuffed chicken, nacatamal, rice, and freshly baked bread"]
 
     },
     {
@@ -218,7 +217,7 @@ db.quiz.insertMany([
         options: ["Nicaragua","Argentina","Kenya"]
     },
     {
-        question: "How do you say merry Christmas in Kenya(their main language is Swahili!)?",
+        question: "How do you say merry Christmas in Kenya (their main language is Swahili!)?",
         correct: "Heri ya Krismasi",
         options: [" Joyeux Noel", "Happy Holidays" ,"Heri ya Krismasi"]
     },
