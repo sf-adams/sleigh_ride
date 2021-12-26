@@ -28,14 +28,6 @@ const QuizQuestion = ({questions, question, score, correctQuestions, addCorrectQ
 
     const candyCanes = [...Array(5)].map((e, i) => <img src={candy_cane} alt="candy cane image" className = "candy-cane-quiz-lives"/>)
     const presents = [...Array(correctQuestions)].map((e, i) => <img src={present} alt="candy cane image" className = "presents-correct-tally"/>)
-    
-    // useEffect(() => {
-    //     getRandomOptions(question.options)
-    // }, [])
-
-    // function getRandomOptions(options) {
-    //     shuffleArray(options)
-    // }
 
     const removeSelectedAnswer = () => {
         const elsF =document.getElementsByClassName("selected-false");
@@ -71,30 +63,30 @@ const QuizQuestion = ({questions, question, score, correctQuestions, addCorrectQ
         const newTotal = 0
         removeSelectedAnswer()
         if (quizAnswerIsCorrect) {
-            updateScore(score.correctQuestions + 1, 
-                        score.incorrectQuestions, 
-                        score.totalQuestions + 1, 
+            updateScore(score.correctQuestions + 1,
+                        score.incorrectQuestions,
+                        score.totalQuestions + 1,
                         score.questionsRemaining -1)
 
             addCorrectQuestions()
         } else if (quizAnswerIsCorrect == null) {
             setRemainingGuesses(remainingGuesses -1);
             document.getElementsByClassName("candy-cane-quiz-lives")[0].className = "hidden-candy";
-            updateScore(score.correctQuestions, 
-                        score.incorrectQuestions + 1, 
-                        score.totalQuestions + 1, 
+            updateScore(score.correctQuestions,
+                        score.incorrectQuestions + 1,
+                        score.totalQuestions + 1,
                         score.questionsRemaining -1)
         } else {
-            updateScore(score.correctQuestions, 
-                        score.incorrectQuestions + 1, 
-                        score.totalQuestions + 1, 
+            updateScore(score.correctQuestions,
+                        score.incorrectQuestions + 1,
+                        score.totalQuestions + 1,
                         score.questionsRemaining -1)
         }
         console.log(score.questionsRemaining)
         setQuizAnswerIsCorrect(null);
         removeQuizQuestion(question)
     }
-    
+
     function handleExit() {
         navigate('/');
     }
@@ -102,7 +94,7 @@ const QuizQuestion = ({questions, question, score, correctQuestions, addCorrectQ
     const handleReplay = (event) => {
         replayQuiz()
     }
- 
+
 
     if (remainingGuesses) {
         return (
@@ -110,13 +102,10 @@ const QuizQuestion = ({questions, question, score, correctQuestions, addCorrectQ
                 <div className="candy-canes">
                     {candyCanes}
                 </div>
-            
+
             <div className="quiz-question">
-                {/* <BsFillCheckCircleFill  style={{display: quizAnswerIsCorrect ? 'block' : 'none'}}></BsFillCheckCircleFill>
-                <BsFillXCircleFill  style={{display: quizAnswerIsCorrect == false ? 'block' : 'none'}}></BsFillXCircleFill> */}
                 <h4>{question.question}</h4>
-                
-                {/* <p>{question.correct}</p> */}
+
                 <ul className="quiz-question-options-list">
                     <li className="quiz-question-option quiz-option1" onClick = {handleClick}>{question.options[0]}</li>
                     <li className="quiz-question-option quiz-option1" onClick = {handleClick}>{question.options[1]}</li>
@@ -130,9 +119,9 @@ const QuizQuestion = ({questions, question, score, correctQuestions, addCorrectQ
             <div className="quiz-cracker-wrapper">
                 <img className="quiz-question-nav-crackers" src={cracker_exit} alt="Cracker button to symbolise exit" onClick = {handleExit}></img>
                 <img className="quiz-question-nav-crackers" src={cracker_next} alt="Cracker button to symbolise next" onClick = {handleNext}></img>
-               
+
             </div>
-            
+
             </>
         )
 
