@@ -13,9 +13,7 @@ import quizElf from '../../assets/images/elf_sad.svg';
 import incorrect from "../../assets/sounds/Incorrect-answer.mp3";
 import correct from "../../assets/sounds/Correct-answer.mp3";
 
-
 const QuizQuestion = ({questions, question, score, correctQuestions, addCorrectQuestions, removeQuizQuestion, replayQuiz, updateScore, shuffleArray, onAnswerCheck, questionsRemaining}) => {
-
 
     const [quizAnswerIsCorrect, setQuizAnswerIsCorrect] = useState(null);
     const [remainingGuesses, setRemainingGuesses] = useState(5);
