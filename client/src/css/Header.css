@@ -18,11 +18,10 @@
 .logo {
   cursor: pointer;
   height: 100%;
-  width: max(450px, 25vw);
+  width: max(300px, 25vw);
 }
 
 .santa-header {
-  /* position: absolute; */
   cursor: pointer;
   height: 7vh;
   margin-left: 20%;
