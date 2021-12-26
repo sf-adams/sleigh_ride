@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import { BsFillCheckCircleFill, BsFillXCircleFill } from 'react-icons/bs';
 import {useNavigate} from 'react-router-dom';
 import useSound from 'use-sound';
-import {nextQuestion} from '../../services/QuizLogic'
 import QuizTally from './QuizTally'
 import candy_cane from '../../assets/images/candy_cane.svg';
 import cracker_next from '../../assets/images/christmas_cracker_next.svg';
