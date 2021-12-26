@@ -9,7 +9,6 @@
 
   --baby-powder-white: #FEFFFD;
 
-
   /* Font colours */
 
   --text-alternate: #666666;
@@ -37,14 +36,11 @@ h2 {
   font-size: 20px;
 }
 
-
-
 /* HOMEPAGE STYLING */
 .main-section {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto;
-  /* background-color: #9D0A0E; */
   min-height: 75vh;
   width: 100%;
   margin: 0 auto !important;
@@ -57,7 +53,6 @@ h2 {
 }
 
 .countdown-wrapper {
-  /* margin-top: 2.5em; */
   height: fit-content;
   width: fit-content;
   width: 100%;
@@ -102,7 +97,6 @@ h2 {
 
 .cracker-map {
   cursor: pointer;
-  /* width: 500px; */
   transition-property: all;
   transition: .4s ease-in;
   transform: rotate(-5deg);
@@ -110,7 +104,6 @@ h2 {
 
 .cracker-quiz {
   cursor: pointer;
-  /* width: 500px; */
   transition-property: all;
   transition: .4s ease-in;
   transform: rotate(5deg);
@@ -118,7 +111,6 @@ h2 {
 
 .cracker-joke {
   cursor: pointer;
-  /* width: 500px; */
   transition-property: all;
   transition: .4s ease-in;
   transform: rotate(5deg);
@@ -128,24 +120,18 @@ h2 {
   cursor: pointer;
   transform: rotate(5deg);
   transform: scale(1.25);
-  /* animation: shake 2s;
-  animation-iteration-count: infinite; */
 }
 
 .cracker-quiz:hover {
   cursor: pointer;
   transform: rotate(5deg);
   transform: scale(1.25);
-  /* animation: shake 2s;
-  animation-iteration-count: infinite; */
 }
 
 .cracker-joke:hover {
   cursor: pointer;
   transform: rotate(5deg);
   transform: scale(1.25);
-  /* animation: shake 2s;
-  animation-iteration-count: infinite; */
 }
 
 .snowflake {
