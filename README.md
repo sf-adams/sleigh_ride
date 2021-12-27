@@ -1,13 +1,13 @@
-<h1 align="center">
+<div align="center">
   <a href="https://github.com/sf-adams/sleigh_ride">
     <img src="client/src/assets/images/santa_favicon.svg" alt="Logo" width="125" height="125">
   </a>
-  <p>Sleigh Ride</p>
-</h1>
+  <h1>Sleigh Ride</h1>
 
-<div align="center">
-  A prototype of a Christmas-themed educational app for primary-aged children; fictitiously commissioned by the BBC. It offers interactive learning and testing of Christmas-related facts from around the world, as well as some festive entertainment features.
-  <br />
+A prototype of a Christmas-themed educational app for primary-aged children; fictitiously commissioned by the BBC. It offers interactive learning and testing of Christmas-related facts from around the world, as well as some festive entertainment features.
+
+<img src = "static/demo_part_one.gif" width ="400" /> <img src = "static/demo_part_two.gif" width ="400" />
+
 </div>
 
 ## Features
