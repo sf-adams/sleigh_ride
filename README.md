@@ -1,12 +1,9 @@
 <h1 align="center">
-  <p>Sleigh Ride</p>
   <a href="https://github.com/sf-adams/sleigh_ride">
     <img src="client/src/assets/images/santa_favicon.svg" alt="Logo" width="125" height="125">
   </a>
+  <p>Sleigh Ride</p>
 </h1>
-
-
-# Sleigh Ride
 
 ## Overview
 
@@ -20,7 +17,6 @@ Sleigh Ride is a prototype of a Christmas-themed educational app for primary-age
 - Let It Snow feature!
 
 ## Tech Stack
-
 - JavaScript
 - React
 - MongoDB
@@ -29,7 +25,6 @@ Sleigh Ride is a prototype of a Christmas-themed educational app for primary-age
 
 
 ## Instructions
-
 1. Server - in command line:
     - `npm install`
     - `npm run seeds`
