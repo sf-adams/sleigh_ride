@@ -42,7 +42,7 @@ Your local machine terminal:
 - npm start (should be listening on port 3000)
 ```
 
-## FULL BRIEF
+## Full Brief
 
 ### Minimum Viable Product
 
