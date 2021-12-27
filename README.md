@@ -5,9 +5,12 @@
   <p>Sleigh Ride</p>
 </h1>
 
-## Overview
-
-Sleigh Ride is a prototype of a Christmas-themed educational app for primary-aged children; fictitiously commissioned by the BBC. It offers interactive learning and testing of Christmas-related facts from around the world, as well as some festive entertainment features.
+<div align="center">
+  Sleigh Ride
+  <br />
+  A prototype of a Christmas-themed educational app for primary-aged children; fictitiously commissioned by the BBC. It offers interactive learning and testing of Christmas-related facts from around the world, as well as some festive entertainment features.
+  <br />
+</div>
 
 ## Features
 - Interactive Map with facts about Christmas around the world
