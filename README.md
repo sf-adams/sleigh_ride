@@ -24,21 +24,27 @@ A prototype of a Christmas-themed educational app for primary-aged children; fic
 - CSS
 - Various NPM libraries (npm install is required, as directed in 'running instructions')
 
-
 ## Instructions
-1. Server - in command line:
-    - `npm install`
-    - `npm run seeds`
-    - `npm run server:dev` (should be listening on port 5000)
+1. In `Server` folder:
 
-2. Client
-    - `npm install`
-    - `npm start` (should be listening on port 3000)
+```zsh
+Your local machine terminal:
+- npm install
+- npm run seeds
+- npm run server:dev (should be listening on port 5000)
+```
 
+2. In `Client` folder:
 
-**FULL BRIEF**
+```zsh
+Your local machine terminal:
+- npm install
+- npm start (should be listening on port 3000)
+```
 
-**MVP - the must haves**
+## FULL BRIEF
+
+### MVP - the must-haves
 
 We chose to create educational content about Christmas around the world; fictitiously commissioned by the BBC. As a key feature, our web app centres around an interactive world map. 
 
@@ -50,7 +56,7 @@ We chose to create educational content about Christmas around the world; fictiti
 3. **Joke** - For some entertaining festive spirit, the user will be able to click on a button that reveals a random Christmas joke
 4. **Design** - BBC Theme, Christmas Colour Palette, Well Rounded Design (as a minimum) for the MVP.
 
-**Extensions - the should haves / could haves**
+### Extensions - the should-haves / could-haves
 
 Identified below are ideas for further development. Some of them have been implemented, as indicated.
 
