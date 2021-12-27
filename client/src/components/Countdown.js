@@ -10,7 +10,7 @@ const Countdown = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate  = new Date('December 25 2021 00:00:00').getTime();
+        const countdownDate  = new Date('January 04 2022 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -20,7 +20,7 @@ const Countdown = () => {
             const hours = Math.floor((diff % (1000 * 60 * 60 *24) / (1000 * 60 * 60)));
             const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-            
+
             if (diff < 0) {
                 clearInterval(interval.current);
             } else {
@@ -42,7 +42,7 @@ const Countdown = () => {
 
     return (
             // <div className="timer-wrapper">
-            <>   
+            <>
                 <p className = "timer-clock">{timerDays}
                     <span className="timer-colon-span">:</span>
                     {timerHours}

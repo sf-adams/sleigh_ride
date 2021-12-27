@@ -5,7 +5,6 @@
 .quiz-welcome  {
     background-color: var(--baby-powder-white);
     border: 1px solid var(--text-alternate);
-    /* max-width: 60%; */
     margin: 4.5em auto 1.5em auto;
     padding-right: .5em;
     width: 60vw;
