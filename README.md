@@ -6,15 +6,20 @@
 </h1>
 
 
-**Sleigh Ride**
+# Sleigh Ride
 
-**OVERVIEW**
+## Overview
 
 Sleigh Ride is a prototype of a Christmas-themed educational app for primary-aged children; fictitiously commissioned by the BBC. It offers interactive learning and testing of Christmas-related facts from around the world, as well as some festive entertainment features.
 
-A full brief - including future developments - is included below.
+## Features
+- Interactive Map with facts about Christmas around the world
+- Quiz to test your new Christmas knowledge
+- Random Joke Generator
+- Chatbot Santa
+- Let It Snow feature!
 
-**TECH STACK**
+## Tech Stack
 
 - JavaScript
 - React
@@ -23,7 +28,7 @@ A full brief - including future developments - is included below.
 - Various NPM libraries (npm install is required, as directed in 'running instructions')
 
 
-**RUNNING INSTRUCTIONS**
+## Instructions
 
 1. Server - in command line:
     - `npm install`
