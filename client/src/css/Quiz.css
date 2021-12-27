@@ -7,8 +7,8 @@
     border: 1px solid var(--text-alternate);
     margin: 4.5em auto 1.5em auto;
     padding-right: .5em;
-    width: 60vw;
-    height: fit-content;
+    width: 70vw;
+    height: 50vh;
     padding: 1em;
     padding-top: 2em;
     border-radius: 5%;
@@ -16,13 +16,12 @@
 }
 
 .quiz-welcome h2 {
-    /* padding-bottom: .75rem; */
     font-size: 1.75em;
     margin-bottom: .55em;
 }
 
 .quiz-welcome p:first-child {
-    padding-bottom: 1.1em;
+    padding-bottom: 0.8em;
 }
 
 .quiz-welcome p {
@@ -51,7 +50,7 @@
 .quiz-start-svg {
     height: 250px;
     width: 250px;
-    margin-left: 20px;
+    margin-left: 30px;
     padding-bottom: 1.5em;
     cursor: pointer;
     transition-property: all;
@@ -66,11 +65,11 @@
 }
 
 .quiz-welcome-elf {
-    height: 25vh;
-    width: 25vh;
+    height: 30vh;
+    width: 30vh;
     margin-left: auto;
     margin-right: 5vw;
-    margin-top: 1.2em;
+    /* margin-top: 1.2em; */
 }
 
 
@@ -78,7 +77,8 @@
 
 .quiz-question {
     margin: 0 auto 0 auto;
-    width: max(600px, 50vw);
+    /* width: max(600px, 50vw); */
+    width: max(600px, 60vw);
     padding: 1.5em 1.5em  0.5em 1.5em;
     background-color: var(--baby-powder-white);
     border: 1px solid var(--text-alternate);
@@ -155,8 +155,8 @@
 }
 
 .quiz-question-nav-crackers {
-    height: 450px;
-    width: 450px;
+    height: 300px;
+    width: 300px;
     /* margin: 1.5em 0; */
     margin-top: 0;
     cursor: pointer;
