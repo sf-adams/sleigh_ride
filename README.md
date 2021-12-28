@@ -1,5 +1,6 @@
 <div align="center">
   <h1>Sleigh Ride
+  <br>
   <a href="https://github.com/sf-adams/sleigh_ride">
     <img src="client/src/assets/images/santa_favicon.svg" alt="Logo" width="150" height="150">
   </a>
