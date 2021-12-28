@@ -1,10 +1,11 @@
 <div align="center">
-  <a href="https://github.com/sf-adams/sleigh_ride">
-    <img src="client/src/assets/images/santa_favicon.svg" alt="Logo" width="125" height="125">
-  </a>
   <h1>Sleigh Ride</h1>
 
-A prototype of a Christmas-themed educational app for primary-aged children; fictitiously commissioned by the BBC. It offers interactive learning and testing of Christmas-related facts from around the world, as well as some festive entertainment features.
+  <a href="https://github.com/sf-adams/sleigh_ride">
+    <img src="client/src/assets/images/santa_favicon.svg" alt="Logo" width="150" height="150">
+  </a>
+
+<p>A prototype of a Christmas-themed educational app for primary-aged children; fictitiously commissioned by the BBC. It offers interactive learning and testing of Christmas-related facts from around the world, as well as some festive entertainment features.</p>
 
 <img src = "static/demo_part_one.gif" width ="400" /> <img src = "static/demo_part_two.gif" width ="400" />
 
@@ -52,11 +53,11 @@ While I have made some changes to our [group project](https://github.com/heather
 
 <div align="center">
   <a href="https://github.com/heathercking">@heathercking</a>
-  ·
+  •
   <a href="https://github.com/Gazian">@Gazian</a>
-  ·
+  •
   <a href="https://github.com/O-Marsters-1997">@O-Marsters-1997</a>
-  ·
+  •
   <a href="https://github.com/sf-adams">@sf-adams</a>
 </div>
 
