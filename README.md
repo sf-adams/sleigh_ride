@@ -10,7 +10,7 @@ A prototype of a Christmas-themed educational app for primary-aged children; fic
 
 [Report Issue](https://github.com/sf-adams/sleigh_ride/issues)
 ·
-[Group Project](https://github.com/heathercking/BBCSleighRide)
+[Group Repository](https://github.com/heathercking/BBCSleighRide)
 
 </div>
 
@@ -48,12 +48,17 @@ Your local machine terminal:
 
 ## The Team
 
-While I have made some changes to our [group project](https://github.com/heathercking/BBCSleighRide), the original Sleigh Ride app was built by the following people:
-- [Heather](https://github.com/heathercking)
-- [JP](https://github.com/Gazian)
-- [Olly](https://github.com/O-Marsters-1997)
-- [Sam](https://github.com/sf-adams)
+While I have made some changes to our [group project](https://github.com/heathercking/BBCSleighRide), the original Sleigh Ride app was built by our team:
 
+<div align="center">
+  <a href="https://github.com/heathercking">@heathercking</a>
+  ·
+  <a href="https://github.com/Gazian">@Gazian</a>
+  ·
+  <a href="https://github.com/O-Marsters-1997">@O-Marsters-1997</a>
+  ·
+  <a href="https://github.com/sf-adams">@sf-adams</a>
+</div>
 
 ## Full Brief
 
