@@ -8,9 +8,9 @@ A prototype of a Christmas-themed educational app for primary-aged children; fic
 
 <img src = "static/demo_part_one.gif" width ="400" /> <img src = "static/demo_part_two.gif" width ="400" />
 
-[Report an Issue](https://github.com/sf-adams/sleigh_ride/issues)
+[Report Issue](https://github.com/sf-adams/sleigh_ride/issues)
 ·
-[See the Original](https://github.com/heathercking/BBCSleighRide)
+[Group Project](https://github.com/heathercking/BBCSleighRide)
 
 </div>
 
@@ -26,9 +26,9 @@ A prototype of a Christmas-themed educational app for primary-aged children; fic
 - React
 - MongoDB
 - CSS
-- Various NPM libraries (npm install is required, as directed in 'running instructions')
+- Various NPM libraries (npm install is required, as directed in 'Getting Started')
 
-## Instructions
+## Getting Started
 1. In `server` folder:
 
 ```zsh
@@ -45,6 +45,15 @@ Your local machine terminal:
 - npm install
 - npm start (should be listening on port 3000)
 ```
+
+## The Team
+
+While I have made some changes to our [group project](https://github.com/heathercking/BBCSleighRide), the original Sleigh Ride app was built by the following people:
+- [Heather](https://github.com/heathercking)
+- [JP](https://github.com/Gazian)
+- [Olly](https://github.com/O-Marsters-1997)
+- [Sam](https://github.com/sf-adams)
+
 
 ## Full Brief
 
