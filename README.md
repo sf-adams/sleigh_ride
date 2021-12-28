@@ -8,6 +8,12 @@ A prototype of a Christmas-themed educational app for primary-aged children; fic
 
 <img src = "static/demo_part_one.gif" width ="400" /> <img src = "static/demo_part_two.gif" width ="400" />
 
+<br />
+
+[Report an Issue](https://github.com/sf-adams/sleigh_ride/issues)
+·
+[See the Original](https://github.com/heathercking/BBCSleighRide)
+
 </div>
 
 ## Features
